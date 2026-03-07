@@ -1,4 +1,4 @@
-# Developer Portfolio
+# Giriraj Portfolio
 
 A minimal, responsive developer portfolio built with Next.js and Tailwind CSS, inspired by Brittany Chiang's design.
 
