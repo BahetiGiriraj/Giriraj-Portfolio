@@ -154,7 +154,34 @@ export default function Home() {
                   </svg>
                 </a>
               </li>
+              <li className="mr-5 text-xs">
+                <a
+                  className="block hover:text-slate-200"
+                  href="https://medium.com/@bahetigiriraj31"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="sr-only">Medium</span>
+                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                  </svg>
+                </a>
+              </li>
             </ul>
+
+            {/* Resume Download Button */}
+            <div className="mt-8">
+              <a
+                href="/Giriraj_Baheti_Resume.pdf"
+                download
+                className="inline-flex items-center gap-2 rounded-md bg-teal-400/10 px-4 py-2 text-sm font-medium text-teal-300 hover:bg-teal-400/20 transition-colors"
+              >
+                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                Download Resume
+              </a>
+            </div>
           </header>
 
           {/* Main Content */}
